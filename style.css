@@ -5,7 +5,10 @@
 }
 
 body {
-  font-family: serif;
+  color:black;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-image: url("weather_app.jpg");
+ 
 }
 .outer {
   display: flex;
@@ -29,7 +32,7 @@ input[type="text"] {
 input[type="submit"] {
   height: 50px;
   width: 100px;
-  background: white;
+  background: black;
   font-style: 20px;
 }
 
@@ -44,6 +47,7 @@ input[type="submit"] {
   margin: auto;
   transition: 1s ease-in-out;
   box-shadow: 0px 0px 15px -8px black;
+
 
 }
 /* .outer .container :hover {
@@ -70,6 +74,7 @@ input[type="submit"] {
   font-size: 25px;
   font-family: monospace;
   font-weight: 1000;
+  color:black;
 
 }
 .bottom p {
@@ -91,7 +96,7 @@ input[type="submit"] {
   input[type="text"] {
     height: 50px;
     width: 300px;
-    background: white;
+    background: black;
     font-size: 20px;
     margin: 0 10px;
   }
@@ -104,6 +109,7 @@ input[type="submit"] {
 @media screen and (max-width: 727px) {
   .bottom {
     font-size: 20px;
+    color:#364F6B;
   }
   .top h1 {
     font-size: 25px;
